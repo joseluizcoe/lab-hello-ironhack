@@ -6,10 +6,10 @@ import './App.css';
 class App extends React.Component {
 
     render() {
-        const { items } = this.props;
+        const { items, heroText } = this.props;
         return (
             <div className="App">
-                <MainSection />
+                <MainSection heroText={heroText}/>
                 <Items items={items}/>
             </div>
         );

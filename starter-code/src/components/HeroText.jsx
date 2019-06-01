@@ -4,8 +4,8 @@ class HeroText extends Component {
     render(){
         return (
             <div className="heroText">
-                <h1>Say hello to ReactJS</h1>
-                <p>You Will learn a Frontend framework from scratcj, to became an Nika Developer.</p>
+                <h1>{this.props.heroText.title}</h1>
+                <p>{this.props.heroText.text}</p>
             </div>
         );
     }

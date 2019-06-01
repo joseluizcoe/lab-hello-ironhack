@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { items } from './constants';
+import { items, heroText } from './constants';
 
 import App from './App.js';
 
 ReactDOM.render(
-    <App items={items} />,
+    <App items={items} heroText={heroText}>
+    </App>,
     document.getElementById("root")
 );

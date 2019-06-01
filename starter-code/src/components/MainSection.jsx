@@ -8,11 +8,13 @@ class MainSection extends Component {
         return (
             <section className="main">
                 <NavBar/>
-                <HeroText/>
-                <Button>Awesome!</Button>
+                <HeroText heroText={this.props.heroText}/>
+                <Button>{this.props.heroText.callToAction}</Button>
             </section>
         );
     }
 }
+
+
 
 export default MainSection;
