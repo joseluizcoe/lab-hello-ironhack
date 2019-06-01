@@ -1,3 +1,9 @@
+const heroText = {
+    title: 'Say Hello to ReactJs',
+    text: 'You will learn a Frontend...',
+    callToAction: 'Awesome! Paul gosta muito'
+}
+
 const items = [
     {
         imgSrc: '/images/icon1.png',
@@ -23,4 +29,5 @@ const items = [
 
 export  {
     items,
+    heroText
 }
